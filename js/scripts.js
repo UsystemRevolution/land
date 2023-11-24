@@ -168,6 +168,7 @@
             ssubmitForm();
         }
     });
+/* 
 
     function ssubmitForm() {
         // initiate variables with form content
@@ -190,6 +191,7 @@
             }
         });
 	}
+ */
 
     function sformSuccess() {
         $("#signUpForm")[0].reset();
@@ -225,6 +227,8 @@
             lsubmitForm();
         }
     });
+   
+	/* 
 
     function lsubmitForm() {
         // initiate variables with form content
@@ -245,7 +249,7 @@
             }
         });
 	}
-
+ */
     function lformSuccess() {
         $("#logInForm")[0].reset();
         lsubmitMSG(true, "Log In Submitted!");
@@ -280,7 +284,7 @@
             nsubmitForm();
         }
     });
-
+/* 
     function nsubmitForm() {
         // initiate variables with form content
 		var email = $("#nemail").val();
@@ -299,6 +303,7 @@
             }
         });
 	}
+ */
 
     function nformSuccess() {
         $("#newsletterForm")[0].reset();
@@ -334,6 +339,7 @@
             psubmitForm();
         }
     });
+/* 
 
     function psubmitForm() {
         // initiate variables with form content
@@ -356,6 +362,7 @@
             }
         });
 	}
+ */
 
     function pformSuccess() {
         $("#privacyForm")[0].reset();
